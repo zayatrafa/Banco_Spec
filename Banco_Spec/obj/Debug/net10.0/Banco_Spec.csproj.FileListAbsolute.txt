@@ -1,0 +1,14 @@
+C:\Users\Zayat\Documents\Projetos\Entrevista_Spec\Banco_Spec\bin\Debug\net10.0\Banco_Spec.exe
+C:\Users\Zayat\Documents\Projetos\Entrevista_Spec\Banco_Spec\bin\Debug\net10.0\Banco_Spec.deps.json
+C:\Users\Zayat\Documents\Projetos\Entrevista_Spec\Banco_Spec\bin\Debug\net10.0\Banco_Spec.runtimeconfig.json
+C:\Users\Zayat\Documents\Projetos\Entrevista_Spec\Banco_Spec\bin\Debug\net10.0\Banco_Spec.dll
+C:\Users\Zayat\Documents\Projetos\Entrevista_Spec\Banco_Spec\bin\Debug\net10.0\Banco_Spec.pdb
+C:\Users\Zayat\Documents\Projetos\Entrevista_Spec\Banco_Spec\obj\Debug\net10.0\Banco_Spec.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Zayat\Documents\Projetos\Entrevista_Spec\Banco_Spec\obj\Debug\net10.0\Banco_Spec.AssemblyInfoInputs.cache
+C:\Users\Zayat\Documents\Projetos\Entrevista_Spec\Banco_Spec\obj\Debug\net10.0\Banco_Spec.AssemblyInfo.cs
+C:\Users\Zayat\Documents\Projetos\Entrevista_Spec\Banco_Spec\obj\Debug\net10.0\Banco_Spec.csproj.CoreCompileInputs.cache
+C:\Users\Zayat\Documents\Projetos\Entrevista_Spec\Banco_Spec\obj\Debug\net10.0\Banco_Spec.dll
+C:\Users\Zayat\Documents\Projetos\Entrevista_Spec\Banco_Spec\obj\Debug\net10.0\refint\Banco_Spec.dll
+C:\Users\Zayat\Documents\Projetos\Entrevista_Spec\Banco_Spec\obj\Debug\net10.0\Banco_Spec.pdb
+C:\Users\Zayat\Documents\Projetos\Entrevista_Spec\Banco_Spec\obj\Debug\net10.0\Banco_Spec.genruntimeconfig.cache
+C:\Users\Zayat\Documents\Projetos\Entrevista_Spec\Banco_Spec\obj\Debug\net10.0\ref\Banco_Spec.dll
