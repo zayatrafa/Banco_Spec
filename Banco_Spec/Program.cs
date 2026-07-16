@@ -1,5 +1,7 @@
 ﻿Console.WriteLine("Bem vindo ao Banco Spec!");
 
+await ExibirTemperaturaAtualAsync("Sao Paulo");
+
 Cliente cliente = new Cliente();
 
 cliente.Nome = "Joao da Silva";
@@ -119,6 +121,32 @@ static async Task SistemaContinuaTrabalhandoAsync()
     {
         Console.WriteLine($"SISTEMA: continuei trabalhando enquanto o SMS nao terminou. Passo {i}");
         await Task.Delay(1000);
+    }
+}
+
+static async Task ExibirTemperaturaAtualAsync(string cidade)
+{
+    using HttpClient httpClient = new HttpClient();
+
+    try
+    {
+        string url = $"https://wttr.in/{Uri.EscapeDataString(cidade)}?format=j1";
+        string resposta = await httpClient.GetStringAsync(url);
+
+        using System.Text.Json.JsonDocument json = System.Text.Json.JsonDocument.Parse(resposta);
+
+        System.Text.Json.JsonElement condicaoAtual = json.RootElement
+            .GetProperty("current_condition")[0];
+
+        string temperatura = condicaoAtual.GetProperty("temp_C").GetString() ?? "N/A";
+        string sensacaoTermica = condicaoAtual.GetProperty("FeelsLikeC").GetString() ?? "N/A";
+
+        Console.WriteLine($"Temperatura atual em {cidade}: {temperatura}°C");
+        Console.WriteLine($"Sensacao termica em {cidade}: {sensacaoTermica}°C");
+    }
+    catch (Exception ex)
+    {
+        Console.WriteLine($"Nao foi possivel consultar a temperatura agora: {ex.Message}");
     }
 }
 
